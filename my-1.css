@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family:'poppins',sans-serif;
+
+}
+body{
+    background: white ;
+} 
+
+header{
+    height: 12vh;
+    width: 100%;
+
+}
+header nav{
+    position:fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+}
+.navbar{
+    width: 90%;
+    display: flex;
+    margin: 20px auto 0px 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    line-height: 50px;
+    /* padding-top: 40px; */
+}
+
+.navbar .menu{
+    display: flex;
+    
+}
+.navbar .menu li{
+    list-style:none ;
+    margin: 0 40px;
+    height: 50px;
+    line-height: 50px;
+}
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+   
+}
+.menu li a:hover,.menu li a.active1{
+    color:rgba(70, 68, 68, 0.685);
+     text-decoration: underline red;
+
+}
+
+.menu-toggle{
+    color:rgb(0, 0, 0);
+    line-height: 50px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.content{
+    padding: 55px 0;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.amaya{
+    font-size: 4rem;
+
+}
+
+.datk{
+    font-size: 3rem;
+
+}
+
+.price{
+    font-size: 2rem;
+}
+
+.btn{
+  
+}
+.one-1{
+    font-size: 1rem;
+}
+   
+.one-2{
+    font-size: 1rem;
+}
+
+button{
+    background-color:rgba(0, 0, 0, 0.021);
+    border-radius: 2px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    border-color: rgb(161, 24, 24);
+}
+button:hover{
+    background-color: red;
+}
+
+.inf{
+    display: flex;
+    text-align: left;
+    width: calc(100% / 2 - 20px); 
+    margin-left: 160px;
+}
+
+.box-1{
+    background-color: brown;
+}
+
+.box-2{
+    background-color: brown;
+}
+
+h5{
+    text-align: center;
+    word-spacing: 5px;
+}
